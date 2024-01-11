@@ -36,7 +36,7 @@ FROM neo4j:5.12.0
 FROM hazelcast/management-center:5.3.2
 LABEL ALIAS=hazelcast
 
-FROM memcached:1.6.21-alpine
+FROM memcached:1.6.23-alpine
 
 FROM redis:7.2.1
 
